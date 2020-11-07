@@ -1,0 +1,6 @@
+[
+  {"value": "FEMALE", "label": "زن"},
+  {"value": "MALE", "label": "مرد"},
+  {"value": "0", "label": "زن"},
+  {"value": "1", "label": "مرد"}
+]

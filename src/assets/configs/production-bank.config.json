@@ -1,0 +1,10 @@
+{
+  "server": {
+    "url": "http://10.40.0.60:12000"
+  },
+  "inquiry": {
+  "serviceCode": 0,
+  "serviceLevel": "",
+  "subSystemName": ""
+}
+}

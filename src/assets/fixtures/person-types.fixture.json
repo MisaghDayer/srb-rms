@@ -1,0 +1,6 @@
+[
+  {"value": "IRANIAN_REAL", "label": "حقیقی ایرانی"},
+  {"value": "IRANIAN_LEGAL", "label": "حقوقی ایرانی"},
+  {"value": "NON_IRANIAN_REAL", "label": "حقیقی اتباع"},
+  {"value": "NON_IRANIAN_LEGAL", "label": "حقوقی اتباع"}
+ ]

@@ -1,0 +1,17 @@
+.icon {
+  &.icon-credit-card {
+    background: url('/assets/icons/credit-card.svg') no-repeat;
+  }
+
+  &.icon-id-card {
+    background: url('/assets/icons/id-card.svg') no-repeat;
+  }
+
+  &.icon-user {
+    background: url('/assets/icons/user.svg') no-repeat;
+  }
+
+  &.icon-inquiry-person {
+    background: url('/assets/icons/inquiry-person.svg') no-repeat;
+  }
+}

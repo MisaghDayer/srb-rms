@@ -1,0 +1,69 @@
+@import '~@angular/material/theming';
+
+$mat-navy-blue: (
+  50 : #e5e8ec,
+  100 : #bfc7cf,
+  200 : #94a1b0,
+  300 : #697b90,
+  400 : #495f78,
+  500 : #294360,
+  600 : #243d58,
+  700 : #1f344e,
+  800 : #192c44,
+  900 : #0f1e33,
+  A100 : #70a4ff,
+  A200 : #3d84ff,
+  A400 : #0a64ff,
+  A700 : #0058f0,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+$brand-primary-color: mat-color($mat-light-blue, 700);
+$brand-primary-dark-color: mat-color($mat-light-blue, 800);
+$brand-primary-light-color: mat-color($mat-light-blue, 600);
+$brand-primary-lighter-color: mat-color($mat-light-blue, 300);
+$brand-primary-text-color: mat-color($mat-light-blue, 100);
+$brand-primary-text-dark-color: mat-color($mat-light-blue, 200);
+$brand-primary-text-light-color: mat-color($mat-light-blue, 50);
+
+$brand-primary-filter: invert(40%) sepia(92%) saturate(2218%) hue-rotate(176deg) brightness(89%) contrast(98%);
+$brand-primary-dark-filter: invert(30%) sepia(99%) saturate(1145%) hue-rotate(178deg) brightness(93%) contrast(98%);
+$brand-primary-light-filter: invert(49%) sepia(71%) saturate(4262%) hue-rotate(174deg) brightness(100%) contrast(98%);
+$brand-primary-lighter-filter: invert(69%) sepia(11%) saturate(2909%) hue-rotate(167deg) brightness(101%) contrast(94%);
+$brand-primary-text-filter: invert(82%) sepia(17%) saturate(901%) hue-rotate(177deg) brightness(105%) contrast(98%);
+$brand-primary-text-dark-filter: invert(75%) sepia(15%) saturate(1174%) hue-rotate(163deg) brightness(102%) contrast(96%);
+$brand-primary-text-light-filter: invert(100%) sepia(53%) saturate(2822%) hue-rotate(176deg) brightness(108%) contrast(99%);
+
+$brand-accent-color: mat-color($mat-navy-blue, 800);
+$brand-accent-dark-color: mat-color($mat-navy-blue, 900);
+$brand-accent-light-color: mat-color($mat-navy-blue, 700);
+$brand-accent-lighter-color: mat-color($mat-navy-blue, 400);
+$brand-accent-text-color: mat-color($mat-navy-blue, 100);
+$brand-accent-text-dark-color: mat-color($mat-navy-blue, 200);
+$brand-accent-text-light-color: mat-color($mat-navy-blue, 50);
+
+$brand-accent-filter: invert(12%) sepia(25%) saturate(2371%) hue-rotate(182deg) brightness(88%) contrast(87%);
+$brand-accent-dark-filter: invert(8%) sepia(58%) saturate(1102%) hue-rotate(185deg) brightness(91%) contrast(95%);
+$brand-accent-light-filter: invert(15%) sepia(22%) saturate(1803%) hue-rotate(174deg) brightness(92%) contrast(85%);
+$brand-accent-lighter-filter: invert(35%) sepia(48%) saturate(346%) hue-rotate(172deg) brightness(86%) contrast(84%);
+$brand-accent-text-filter: invert(90%) sepia(12%) saturate(164%) hue-rotate(169deg) brightness(86%) contrast(93%);
+$brand-accent-text-dark-filter: invert(66%) sepia(8%) saturate(592%) hue-rotate(172deg) brightness(96%) contrast(87%);
+$brand-accent-text-light-filter: invert(93%) sepia(18%) saturate(43%) hue-rotate(175deg) brightness(99%) contrast(91%);
+
+$brand-error-color: mat-color($mat-red);
+$brand-warn-color: mat-color($mat-orange, A200);

@@ -1,0 +1,10 @@
+[
+  {
+    "label": "میلادی",
+    "value": "GREGORIAN"
+  },
+  {
+    "label": "هجری شمسی",
+    "value": "PERSIAN"
+  }
+]

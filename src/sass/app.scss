@@ -1,0 +1,113 @@
+@import '~src/sass/variables';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: iranyekan-farsi-numeral, Tahoma, 'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  padding: 20px 10px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $brand-accent-light-color;
+}
+
+.fa, .fas, .far, .fal, .fab, .fad {
+  @extend .mat-icon;
+  @extend .fa-flip-horizontal;
+  width: auto;
+  height: auto;
+  font-size: 24px;
+
+  &.fa-check {
+    transform: unset;
+  }
+}
+
+.ltr,
+input[type=number] {
+  text-align: left !important;
+  direction: ltr;
+  padding-left: 10px;
+}
+
+input[type='number'],
+.numeric {
+  letter-spacing: 1px;
+}
+
+.app-english-text {
+  font-family: iranyekan, Tahoma, 'Helvetica Neue', sans-serif;
+}
+
+.app-table-container {
+  overflow-x: auto;
+}
+
+
+.app-message-snackbar-container {
+  &.mat-snack-bar-container {
+    margin-top: 90px;
+    min-width: 500px;
+    max-width: 50vw;
+  }
+
+  &.app-message-success {
+    background-color: mat-color($mat-teal, 50);
+    border: 1px solid mat-color($mat-teal, 700);
+    color: mat-color($mat-teal, 800);
+  }
+
+  &.app-message-error {
+    background-color: mat-color($mat-red, 50);
+    border: 1px solid mat-color($mat-red, 500);
+    color: mat-color($mat-red, 500);
+  }
+
+  &.app-message-warning {
+    background-color: mat-color($mat-orange, 50);
+    border: 1px solid mat-color($mat-orange, 700);
+    color: mat-color($mat-orange, 700);
+  }
+}
+
+.surena-readonly-field-value {
+  &.surena-readonly-field-date,
+  &.surena-readonly-field-currency,
+  &.surena-readonly-field-percent,
+  &.surena-readonly-field-month,
+  &.surena-readonly-field-day,
+  &.surena-readonly-field-number,
+  &.surena-readonly-field-numeric {
+    letter-spacing: 1px;
+  }
+}
+
+.app-error-box {
+  background-color: mat-color($mat-red, 50);
+  border: 1px solid mat-color($mat-red, 500);
+  color: mat-color($mat-red, 500);
+  min-height: 50px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}

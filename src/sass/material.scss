@@ -1,0 +1,80 @@
+@import '~@angular/material/theming';
+@import '~src/sass/variables';
+
+$custom-typography: mat-typography-config(
+  $font-family: 'iranyekan-farsi-numeral'
+);
+@include mat-core($custom-typography);
+
+$brand-mat-primary-palette: mat-palette($mat-light-blue, 500);
+$brand-mat-accent-palette: mat-palette($mat-navy-blue, 600, 400, 800);
+$brand-warn-palette: mat-palette($mat-red);
+$brand-mat-theme: mat-light-theme($brand-mat-primary-palette, $brand-mat-accent-palette, $brand-warn-palette);
+
+@include angular-material-theme($brand-mat-theme);
+.mat-card {
+  padding: 25px !important;
+
+  .mat-card-header {
+    .mat-card-title {
+      @extend .mat-h3;
+      font-weight: bold;
+      color: $brand-accent-lighter-color;
+    }
+  }
+}
+
+.mat-slide-toggle {
+  height: 50px !important;
+}
+
+.mat-flat-button {
+  height: 50px;
+
+  &[color='generic'] {
+    background-color: $brand-accent-text-light-color;
+  }
+
+  .mat-icon {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+  }
+}
+
+.mat-icon {
+  margin-left: 5px;
+  width: auto !important;
+  height: auto !important;
+}
+
+.mat-icon-button {
+  .mat-icon {
+    margin: auto;
+  }
+}
+
+.mat-form-field {
+  &:not(.mat-form-field-appearance-legacy) {
+    .mat-form-field-suffix {
+      align-self: center;
+
+      .mat-icon-button {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .mat-form-field-wrapper {
+    button {
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+}
+
+.mat-tooltip {
+  background-color: $brand-accent-lighter-color;
+  font-size: 12px;
+  line-height: 2em;
+}

@@ -1,0 +1,10 @@
+{
+  "server": {
+    "url": "http://10.40.0.210:13000"
+  },
+  "service": {
+    "serviceCode": 1,
+    "serviceLevel": "",
+    "subSystemName": ""
+  }
+}
