@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .fa, .fas, .far, .fal, .fab, .fad {
   @extend .mat-icon;
-  @extend .fa-flip-horizontal;
   width: auto;
   height: auto;
   font-size: 24px;
